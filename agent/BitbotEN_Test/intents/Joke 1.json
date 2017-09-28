@@ -1,0 +1,78 @@
+{
+  "userSays": [
+    {
+      "id": "fa0f64a1-6d82-4d7f-bdd6-4ca33bd13a30",
+      "data": [
+        {
+          "text": "Tell me a joke"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5daa66bc-b59b-4474-a275-e59f93bb56f7",
+      "data": [
+        {
+          "text": "tell me a joke please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7fa0b585-313c-4359-ad6e-0b681b63b5cc",
+      "data": [
+        {
+          "text": "tell me a joke"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "140447c0-2a34-4e5a-bdbb-c6ee9dd8d8b0",
+      "data": [
+        {
+          "text": "joke"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "60909a70-b4c4-4edc-9e97-d2424a6b7789",
+  "name": "Joke 1",
+  "auto": true,
+  "contexts": [
+    "session"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "jokeone",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Why can\u0027t the bike stand on it\u0027s own? Because it was two tired!",
+            "Why is 6 so afraid of 7? Because 7, 8, 9.",
+            "How do crazy people get to work? They take the psycho path."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

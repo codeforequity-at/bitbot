@@ -1,0 +1,93 @@
+{
+  "userSays": [
+    {
+      "id": "ca19c885-ffd6-4fa7-bebd-0650d13c75bc",
+      "data": [
+        {
+          "text": "what address to send"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "fcf14c3a-5407-4f8f-9cd0-7a20f9efb51e",
+      "data": [
+        {
+          "text": "tell me my "
+        },
+        {
+          "text": "bitcoin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " address"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fae24318-246b-4460-90e5-13fe6bcd434f",
+      "data": [
+        {
+          "text": "what is my address"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "12ef8d99-b48d-4854-bc1c-203ab1ad168d",
+      "data": [
+        {
+          "text": "what is my "
+        },
+        {
+          "text": "bitcoin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " address"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "49dcf82b-8abb-4a09-9e28-56f3c15001ec",
+  "name": "Topup - Bitcoin",
+  "auto": true,
+  "contexts": [
+    "session",
+    "wallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Please send Bitcoin to this address: #wallet.address (or scan the following QR Code)."
+        },
+        {
+          "type": 3,
+          "imageUrl": "http://www.btcfrog.com/qr/bitcoinPNG.php?address\u003d#wallet.address"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "TOPUP_BITCOIN"
+    }
+  ]
+}

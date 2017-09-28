@@ -1,0 +1,87 @@
+{
+  "userSays": [
+    {
+      "id": "edef21b4-a731-44f1-905d-582e6278cf82",
+      "data": [
+        {
+          "text": "good"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4daf2d86-2ecd-4e94-b157-0beb237b7e95",
+      "data": [
+        {
+          "text": "surely"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4e922f52-b789-462c-88ec-b671723a0e2a",
+      "data": [
+        {
+          "text": "yeah"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5b69b914-25f3-42fa-b8e8-db0b47875396",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "97d60763-f232-4601-9631-cf13609f0521",
+      "data": [
+        {
+          "text": "okay"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "44c9c57a-50a1-4fb9-ba11-704c9f52b87c",
+  "name": "Wallet YesNo - Yes",
+  "auto": true,
+  "contexts": [
+    "session",
+    "nowallet",
+    "wallet_yesno"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "createwallet",
+      "affectedContexts": [
+        {
+          "name": "wallet_yesno",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Something isn\u0027t working as expected."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

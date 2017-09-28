@@ -1,0 +1,51 @@
+{
+  "userSays": [],
+  "id": "c336dd30-a239-43a9-be70-7b7e333e9a58",
+  "name": "Send - Currency Invalid",
+  "auto": true,
+  "contexts": [
+    "session",
+    "wallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "sendmoney",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "friend",
+          "value": "#SEND_CURRENCYINVALID.friend",
+          "prompts": [
+            "Please tell me the full name of the receiver as registered on Facebook. (or cancel)"
+          ]
+        },
+        {
+          "required": true,
+          "dataType": "@sys.unit-currency",
+          "name": "unitcurrency",
+          "prompts": [
+            "The currency is not supported. Please choose EUR, USD, GBP or Bitcoin for example. (or cancel)"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "SEND_CURRENCYINVALID"
+    }
+  ]
+}

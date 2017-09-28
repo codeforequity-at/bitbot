@@ -1,0 +1,51 @@
+{
+  "userSays": [],
+  "id": "b47a0ad4-2965-412c-98f0-302972282261",
+  "name": "Send - UnitCurrency Invalid",
+  "auto": true,
+  "contexts": [
+    "session",
+    "wallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "sendmoney",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "friend",
+          "value": "#SEND_UNITCURRENCYINVALID.friend",
+          "prompts": [
+            "An wen möchtest du Geld senden ? (oder abbrechen)"
+          ]
+        },
+        {
+          "required": true,
+          "dataType": "@sys.unit-currency",
+          "name": "unitcurrency",
+          "prompts": [
+            "Den Betrag verstehe ich leider nicht, das ist keine der unterstützten Währungen. Am besten als \"2,5 EUR\" oder \"0,01 Bitcoin\" angeben!"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "SEND_UNITCURRENCYINVALID"
+    }
+  ]
+}

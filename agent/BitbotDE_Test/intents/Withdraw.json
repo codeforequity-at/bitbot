@@ -1,0 +1,168 @@
+{
+  "userSays": [
+    {
+      "id": "71cefbd9-eab9-42c4-a509-21e438d47ebd",
+      "data": [
+        {
+          "text": "geld abheben"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "84e8f062-2a28-4a64-bc58-f0871b745a93",
+      "data": [
+        {
+          "text": "guthaben nach "
+        },
+        {
+          "text": "adresse",
+          "alias": "address",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " überweisen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9d529b11-31ab-4ec3-8f47-feaf9b2a2465",
+      "data": [
+        {
+          "text": "withdraw to "
+        },
+        {
+          "text": "adresse",
+          "alias": "address",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8d4ada1b-0be4-4ef6-b80a-3d72eff0710e",
+      "data": [
+        {
+          "text": "mein guthaben auf "
+        },
+        {
+          "text": "adresse",
+          "alias": "address",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " überweisen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "339343e6-21b8-442e-980a-471dbb0a0a5d",
+      "data": [
+        {
+          "text": "guthaben überweisen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "921565c6-1ab1-48a5-98a8-ba4a92bf4f6f",
+      "data": [
+        {
+          "text": "ich möchte mein guthaben überweisen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1bb21560-0bf9-4535-8bc4-eea8e202245f",
+      "data": [
+        {
+          "text": "wie kann ich mein guthaben abheben"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c6e02d65-6817-49af-b244-21d28f752bf8",
+      "data": [
+        {
+          "text": "withdrawal"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2d2bff54-bbb8-4f1b-ab03-e6f9f5b09700",
+      "data": [
+        {
+          "text": "ich möchte mein guthaben abheben"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "32a045a9-1ab2-41c3-adb7-c66ab1a97cfe",
+      "data": [
+        {
+          "text": "abheben"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b10461a9-5d1b-41ea-aba4-d6fc79e32de6",
+  "name": "Withdraw",
+  "auto": true,
+  "contexts": [
+    "session",
+    "wallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "withdrawal",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "address",
+          "value": "$address",
+          "prompts": [
+            "Auf welche Bitcoin-Adresse willst du dein Guthaben überweisen ? Du kannst mir auch ein Foto des QR-Codes schicken (oder abbrechen)"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WITHDRAW"
+    }
+  ]
+}

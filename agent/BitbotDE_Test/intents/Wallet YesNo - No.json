@@ -1,0 +1,149 @@
+{
+  "userSays": [
+    {
+      "id": "d87cb1cb-360a-40fc-a908-9f650079dd0e",
+      "data": [
+        {
+          "text": "naaa"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "55791c13-03a5-4a71-9e04-c496982d8162",
+      "data": [
+        {
+          "text": "na"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8eb32f11-16d3-494a-a9bd-9a2b4a213a09",
+      "data": [
+        {
+          "text": "sicher nicht"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5a6657cc-c302-4519-a3eb-49de10b26425",
+      "data": [
+        {
+          "text": "nein danke"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9565409d-b7cb-4204-8c81-aca9e9dd8746",
+      "data": [
+        {
+          "text": "nö"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3301450e-c1d5-4859-99f7-abca7b58e7a2",
+      "data": [
+        {
+          "text": "nee"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8940597b-11c9-4502-a2e4-185baf181838",
+      "data": [
+        {
+          "text": "ne"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8c6e8091-2f09-4c5d-a8dd-33250989b25c",
+      "data": [
+        {
+          "text": "nop"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "47074414-de41-4184-8c6b-0e622c323a29",
+      "data": [
+        {
+          "text": "nope"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fc6f6a2e-cd9d-416b-bd4f-2cfc0ed133a0",
+      "data": [
+        {
+          "text": "nein"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "42a7f034-71d6-44c4-a455-5edc12bdfebe",
+      "data": [
+        {
+          "text": "no"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "45b0dd06-112f-419f-b47d-8e51aa202c5b",
+  "name": "Wallet YesNo - No",
+  "auto": true,
+  "contexts": [
+    "session",
+    "nowallet",
+    "wallet_yesno"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "wallet_yesno",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Ohne deine persönliche PIN geht hier nicht viel, tut mir leid. Vielleicht machen wir das jetzt doch ? Es geht wirklich in ein paar Sekunden.",
+            "Du kannst hier ohne deine PIN nicht viel machen, sorry. Willst du vielleicht doch ? Geht ganz schnell, versprochen!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

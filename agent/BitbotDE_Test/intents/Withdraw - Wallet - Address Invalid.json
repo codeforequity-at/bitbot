@@ -1,0 +1,43 @@
+{
+  "userSays": [],
+  "id": "a3ef48b7-340d-42e5-9898-8142365256b5",
+  "name": "Withdraw - Wallet - Address Invalid",
+  "auto": true,
+  "contexts": [
+    "session",
+    "wallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "withdrawal",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "address",
+          "prompts": [
+            "Die Adresse \"#WITHDRAW_ADDRESSINVALID.address\" ist keine gültige Bitcoin-Adresse. Am besten du schickst mir ein Foto des QR-Codes!"
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WITHDRAW_ADDRESSINVALID"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "userSays": [
+    {
+      "id": "e59c78b3-f834-4a2f-8635-0e465ff67770",
+      "data": [
+        {
+          "text": "Test"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6dd7b98f-3ac9-462e-bdfa-29d51dc20c4b",
+      "data": [
+        {
+          "text": "how do you work"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ee0471f7-352d-4b2f-9a43-98a42e55d932",
+      "data": [
+        {
+          "text": "how does it work"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "743c4d0c-c417-4fbe-abbe-5ec036dcbd19",
+      "data": [
+        {
+          "text": "what\u0027s this all about"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b446a9f3-46ed-4366-b9d8-04f9ec3cd3ec",
+      "data": [
+        {
+          "text": "what do i have to do"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "97479382-5c52-4b9a-b3c9-db137fb995f5",
+      "data": [
+        {
+          "text": "Info"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "48b5c5eb-3581-4a81-9c83-9f6f475de987",
+      "data": [
+        {
+          "text": "commands"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0aba4610-7bd8-4894-867b-3e1d0bd49fa7",
+      "data": [
+        {
+          "text": "help"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d7939272-f0ea-44ba-bd87-8166930b81af",
+  "name": "Hilfe",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "How can I help you ? Please just write a question, most likely I will understand it. For example: What is Bitcoin ? How can I topup my account ? How safe are my credits ?"
+        },
+        {
+          "type": 0,
+          "speech": "You can cancel every action by just entering \"cancel\"."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

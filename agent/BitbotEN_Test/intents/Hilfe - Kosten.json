@@ -1,0 +1,96 @@
+{
+  "userSays": [
+    {
+      "id": "e86659e5-7d4e-4123-ac43-3c5f696db937",
+      "data": [
+        {
+          "text": "is it free"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5e82fff9-ed6b-43ce-9c37-769afa06b1db",
+      "data": [
+        {
+          "text": "transaction fees"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "93f882a6-428a-4434-8869-fd51487d7e47",
+      "data": [
+        {
+          "text": "transaction costs"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c3a59ea9-a000-4675-9497-803388e5bd4f",
+      "data": [
+        {
+          "text": "costs"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "43c87c28-bdca-4e2b-a501-f1e314375518",
+      "data": [
+        {
+          "text": "fees"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "98e1bfeb-b51d-4af3-b447-62df1d1557fe",
+      "data": [
+        {
+          "text": "is there a fee involved"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1b9bdf1b-ffde-45fb-8db7-dd7c899a15b0",
+      "data": [
+        {
+          "text": "how much does it cost"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "94f977bc-141f-4f85-bc1e-ef011802782f",
+  "name": "Hilfe - Kosten",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "There are minimal transaction fees for the Bitcoin network (\"mining fees\"). When buying and selling Bitcoin usually there are commissions involved. My humble service for you is free, but I\u0027m only a chatbot..."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

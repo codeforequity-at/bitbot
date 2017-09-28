@@ -1,0 +1,59 @@
+{
+  "userSays": [
+    {
+      "id": "52c26b1f-2a5d-4fa1-a8b6-a08723c1b277",
+      "data": [
+        {
+          "text": "thank you very much"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e631d7b5-bcab-4c28-bf58-418fc1c933ec",
+      "data": [
+        {
+          "text": "thank you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4176e55f-2770-4ee2-9643-382a23627e19",
+      "data": [
+        {
+          "text": "thanks"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1e397eb6-c87f-4831-a6d6-74df5cd3a418",
+  "name": "Danke",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "You\u0027re welcome!",
+            "You are the best user ever!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

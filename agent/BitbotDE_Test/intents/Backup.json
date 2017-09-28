@@ -1,0 +1,146 @@
+{
+  "userSays": [
+    {
+      "id": "3d81dc5d-2f61-4329-97dc-c26e3763a50a",
+      "data": [
+        {
+          "text": "Backup"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "49b5732b-d6db-44b4-8e72-0ea597d05b45",
+      "data": [
+        {
+          "text": "backup machen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "6aa20fd9-6cb8-4e54-a6b2-300843436818",
+      "data": [
+        {
+          "text": "sicherungskopie"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "cbc38c24-a566-484a-897c-5eaf5d0f47f4",
+      "data": [
+        {
+          "text": "sicherungskopie machen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "cdb9c62e-84f8-48e0-9624-b7759cec6ab4",
+      "data": [
+        {
+          "text": "sicherung machen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "834b200a-eebc-4975-944a-93221b529ebb",
+      "data": [
+        {
+          "text": "ich möchte eine sicherung machen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "303cc0e0-8f78-43db-8b8e-df84146173b8",
+      "data": [
+        {
+          "text": "ich möchte "
+        },
+        {
+          "text": "ein",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " backup machen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c590d668-70b7-4522-b9df-6dc7e9815a8a",
+      "data": [
+        {
+          "text": "sichern"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "644288e9-920e-4233-8b8d-b58819466bda",
+      "data": [
+        {
+          "text": "sicherung"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "90332efa-1f86-4fe9-8102-53128079cabd",
+      "data": [
+        {
+          "text": "backup"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "55d38620-35c2-4aad-9865-ec5bd1c191b8",
+  "name": "Backup",
+  "auto": true,
+  "contexts": [
+    "session",
+    "wallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "backup",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Es folgt der private Schlüssel deines Kontos, bitte gut aufbewahren. Dieser wurde mit deiner PIN mithilfe der \"TripleSec\"-Bibliothek verschlüsselt. Du kannst ihn auf https://keybase.io/triplesec/ entschlüsseln und in dein Bitcoin Wallet importieren."
+        },
+        {
+          "type": 0,
+          "speech": "#wallet.privatekey"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "BACKUP"
+    }
+  ]
+}

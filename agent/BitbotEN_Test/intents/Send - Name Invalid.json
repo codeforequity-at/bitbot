@@ -1,0 +1,52 @@
+{
+  "userSays": [],
+  "id": "5a9b4827-9fb7-420a-99c1-f4ee7e066275",
+  "name": "Send - Name Invalid",
+  "auto": true,
+  "contexts": [
+    "session",
+    "wallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "sendmoney",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "friend",
+          "value": "",
+          "prompts": [
+            "Please enter full name (including given name) as registered on Facebook and don\u0027t use abbreviations. Who do you want me to send it ? (or cancel)"
+          ]
+        },
+        {
+          "required": true,
+          "dataType": "@sys.unit-currency",
+          "name": "unitcurrency",
+          "value": "#SEND_NAMEINVALID.unitcurrency",
+          "prompts": [
+            "How much do you want to send ?"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "SEND_NAMEINVALID"
+    }
+  ]
+}

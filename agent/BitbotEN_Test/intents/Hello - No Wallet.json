@@ -1,0 +1,136 @@
+{
+  "userSays": [
+    {
+      "id": "7c5838fe-ff5b-4815-ac5f-0efdda3eea1b",
+      "data": [
+        {
+          "text": "hi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7b8b822f-012c-4a07-b8f0-09d11e7de5e5",
+      "data": [
+        {
+          "text": "start it"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "12fd3a47-826b-4e7f-897f-548851465fda",
+      "data": [
+        {
+          "text": "what\u0027s up"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2d584338-6c95-4f6b-89fc-a743cbe1eee0",
+      "data": [
+        {
+          "text": "begin"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ca0d7300-455f-4809-97fe-36fde80f5edf",
+      "data": [
+        {
+          "text": "start"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "004a6e0e-d0a4-442d-a895-7bff0ea81530",
+      "data": [
+        {
+          "text": "test"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9544d9d5-7180-426a-b254-2a8df054fa9e",
+      "data": [
+        {
+          "text": "howdy"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c0533a8e-6007-4805-a4b0-bddbd23f641d",
+      "data": [
+        {
+          "text": "greetings"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "87e5cfe7-65b6-4efe-9649-92d60c0e251f",
+      "data": [
+        {
+          "text": "Getting Started"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "83fe42bc-d6d7-4232-bb40-0d89516f7e62",
+      "data": [
+        {
+          "text": "Hello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "341ef396-57ec-4b17-b9b1-7d71808bb381",
+  "name": "Hello - No Wallet",
+  "auto": true,
+  "contexts": [
+    "session",
+    "nowallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "wallet_yesno",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Hello, first you have to choose your personal PIN - is this OK for you ? It just takes some seconds!"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

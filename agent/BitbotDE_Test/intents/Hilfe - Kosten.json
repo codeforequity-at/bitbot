@@ -1,0 +1,146 @@
+{
+  "userSays": [
+    {
+      "id": "0567716c-8e89-4d9c-b4e6-2c6e819122df",
+      "data": [
+        {
+          "text": "was sind die kosten"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "545b421f-f51c-4d42-8fd2-d9d7619cef1f",
+      "data": [
+        {
+          "text": "kosten"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "0566799b-2fcf-484c-a2cb-8b22af3016a2",
+      "data": [
+        {
+          "text": "transaktionsgebühren"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "041466b4-728d-4ad6-8526-2bf0bde45b3f",
+      "data": [
+        {
+          "text": "wie hoch sind die transaktionsgebühren"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9e709731-ea35-4db3-961f-9932867247f2",
+      "data": [
+        {
+          "text": "wie hoch sind die transaktionskosten"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6867e4cb-59d1-4d38-9287-60e8ce1fec7f",
+      "data": [
+        {
+          "text": "wie hoch sind die gebühren"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0c1b7b68-bd6b-4c7c-be79-086ae07a96dd",
+      "data": [
+        {
+          "text": "muss ich etwas bezahlen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3a5fe6ea-c210-4a3a-b462-e29dbe235ae1",
+      "data": [
+        {
+          "text": "wofür muss ich bezahlen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bcdba552-7141-439d-950c-7bfd67f03f24",
+      "data": [
+        {
+          "text": "wie ist die gebührenstruktur"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f4d7e4b3-f7a7-4017-b719-c90ecbe1e922",
+      "data": [
+        {
+          "text": "wie sind die gebühren"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f69155ed-fd63-4053-9860-fba4657b13e4",
+      "data": [
+        {
+          "text": "wie hoch sind die kosten"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6196bcdc-833d-4410-a2fd-9be1df96f201",
+      "data": [
+        {
+          "text": "was kostet das"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "94f977bc-141f-4f85-bc1e-ef011802782f",
+  "name": "Hilfe - Kosten",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Für Bitcoin-Transaktionen fallen minimale Gebühren an (die sogenannten \"Mining-Fees\"). Diese sind ein Bruchteil von Euro-Cents. Darüber hinaus fallen in der Regel Kauf- bzw Verkaufsprovisionen an, wenn man Bitcoins kauft oder verkauft. Ich selber bin gratis und verdiene nichts, ich bin aber auch nur ein Chatbot."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

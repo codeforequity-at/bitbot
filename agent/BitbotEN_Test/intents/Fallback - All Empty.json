@@ -1,0 +1,25 @@
+{
+  "userSays": [],
+  "id": "415e254d-b40b-446f-8864-48872649a86a",
+  "name": "Fallback - All Empty",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "The session has expired and will be continued immediately. I\u0027m sorry for this technical nerdtalk."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

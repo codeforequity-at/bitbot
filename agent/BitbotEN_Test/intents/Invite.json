@@ -1,0 +1,79 @@
+{
+  "userSays": [
+    {
+      "id": "38fdffe6-37cf-43a9-88fe-5971a4d32209",
+      "data": [
+        {
+          "text": "share"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "2a16321b-4ae2-4a22-ab20-1e722302f727",
+      "data": [
+        {
+          "text": "how can i recommend this to my friends"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "944f8a5e-9a64-4089-b95a-810eb36cd8b6",
+      "data": [
+        {
+          "text": "how can i share"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b7dd7623-e3ec-4916-b80f-3937f47a2aec",
+      "data": [
+        {
+          "text": "how can i invite friends"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "74abf2d4-70e9-4ba7-89db-bc8f22e7b08c",
+      "data": [
+        {
+          "text": "invite friends"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "ceccd8ad-b1d5-4334-8b19-fb5639ebbe8a",
+  "name": "Invite",
+  "auto": true,
+  "contexts": [
+    "session"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "invite",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

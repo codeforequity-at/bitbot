@@ -1,0 +1,102 @@
+{
+  "userSays": [
+    {
+      "id": "7ef4bead-4426-4049-8b26-ce137916ed1e",
+      "data": [
+        {
+          "text": "i don\u0027t know what "
+        },
+        {
+          "text": "bitcoin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " is"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "49967604-3ab4-4fe2-891c-6b0141aa4fac",
+      "data": [
+        {
+          "text": "i don\u0027t know "
+        },
+        {
+          "text": "bitcoin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3653eb19-1ef2-41c7-80d7-70d06ce3b994",
+      "data": [
+        {
+          "text": "how are bitcoin working"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "73e34655-80c7-4a2e-b9eb-0d8d6b7aec96",
+      "data": [
+        {
+          "text": "what is "
+        },
+        {
+          "text": "bitcoin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fd9e451e-88da-43de-907b-3a8c83763edc",
+      "data": [
+        {
+          "text": "bitcoin"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d30685c8-4139-4dda-99ca-ce330af33f76",
+  "name": "Hilfe - Bitcoin",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "You can find plenty of information in the internet - too much for here. Please use your favourite search engine."
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "HELP_BITCOIN"
+    }
+  ]
+}

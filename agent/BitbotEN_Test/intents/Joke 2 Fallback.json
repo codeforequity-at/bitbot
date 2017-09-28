@@ -1,0 +1,37 @@
+{
+  "userSays": [],
+  "id": "c0ed01c3-c70d-4037-b9e5-b7e4e5e828d1",
+  "name": "Joke 2 Fallback",
+  "auto": false,
+  "contexts": [
+    "session",
+    "jokeone"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "jokeone",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Yeah, whatever ...",
+            "OK, fine. Now back to the topic."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

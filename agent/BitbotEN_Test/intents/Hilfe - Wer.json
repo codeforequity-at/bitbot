@@ -1,0 +1,126 @@
+{
+  "userSays": [
+    {
+      "id": "8f18a452-c0cc-4803-8a87-a7672d5eb2c9",
+      "data": [
+        {
+          "text": "who\u0027s there"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "da5ef56c-5227-47c0-af48-21dc77373090",
+      "data": [
+        {
+          "text": "who\u0027s talking"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "872c3c0a-9563-4136-a109-8c4f89f94b23",
+      "data": [
+        {
+          "text": "are you a bot"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "432dbfde-8569-47af-9cc3-3717663c3184",
+      "data": [
+        {
+          "text": "are you human"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "648bb983-44c7-4030-ab7b-33db7e8ce747",
+      "data": [
+        {
+          "text": "what means itipu"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d6ecae9a-bc42-4198-98b7-c4291d7cd406",
+      "data": [
+        {
+          "text": "what is your name"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3270f5d9-6ac4-4ffd-9edf-8d262170bbce",
+      "data": [
+        {
+          "text": "how old are you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "108dd10d-46ed-40f1-965c-424684008a66",
+      "data": [
+        {
+          "text": "whats your birthday"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f0251015-9f01-440b-a1f0-0c4d3bbd764d",
+      "data": [
+        {
+          "text": "who are you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7b567528-d5b5-4ebd-b943-1bb58b2ad488",
+      "data": [
+        {
+          "text": "info"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "85fa00c1-fcbc-45c0-9ced-2158a48ca947",
+  "name": "Hilfe - Wer",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "I\u0027m a computer program. My name is \"Itipu\", just short for \"i tip you\". My programmer is doing his best to train me to understand your language."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

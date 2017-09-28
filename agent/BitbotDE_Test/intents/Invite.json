@@ -1,0 +1,149 @@
+{
+  "userSays": [
+    {
+      "id": "edb8468d-a803-446a-9e3a-e0a93b26065e",
+      "data": [
+        {
+          "text": "teilen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "3b3766e6-a8bc-408e-9400-92c6f6bca40f",
+      "data": [
+        {
+          "text": "Freund einladen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "16810072-19e9-4052-9ace-2539d9b23125",
+      "data": [
+        {
+          "text": "wie kann ich das meinen freunden teilen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2c0cae68-588b-4d64-8813-a226e8c9d7c3",
+      "data": [
+        {
+          "text": "ich will das weiterempfehlen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "155a8056-20c2-44d5-9f40-6941f2cffd2f",
+      "data": [
+        {
+          "text": "ich will das teilen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "aef31f6b-63e5-49b9-bf91-581911f95ba2",
+      "data": [
+        {
+          "text": "wie kann ich das teilen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "22af9f2a-ff3b-4885-abe6-da728abeb8fc",
+      "data": [
+        {
+          "text": "wie kann ich jemanden einladen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ac5ac726-4519-455f-9038-7073e8aa17ce",
+      "data": [
+        {
+          "text": "einladen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f727cdca-9030-4193-8073-8bd7075e6562",
+      "data": [
+        {
+          "text": "wie kann ich freunde einladen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "745703f7-0daf-4610-ad49-8a78e7e7523a",
+      "data": [
+        {
+          "text": "freunde einladen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fbedad42-7740-43b0-80bd-c3caa43f5f6b",
+      "data": [
+        {
+          "text": "weiterempfehlen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "456fd91b-fc1a-4308-b6ad-141ed2414e08",
+      "data": [
+        {
+          "text": "wie kann ich dich weiterempfehlen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "ceccd8ad-b1d5-4334-8b19-fb5639ebbe8a",
+  "name": "Invite",
+  "auto": true,
+  "contexts": [
+    "session"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "invite",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,129 @@
+{
+  "userSays": [
+    {
+      "id": "5bdb505a-4fc9-4b15-accc-9b836840ff90",
+      "data": [
+        {
+          "text": "please add funds"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "8224c0f7-dc41-4ae5-b086-b4d1ac12ca95",
+      "data": [
+        {
+          "text": "i want to add funds"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e595daf5-84f0-4c14-8b66-2cdfc2c58afe",
+      "data": [
+        {
+          "text": "add credits"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4fefe46a-2425-47b3-b35d-121093e2ace8",
+      "data": [
+        {
+          "text": "how can i add credits"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "578a36ad-463a-4548-9c8d-713cb40c8db8",
+      "data": [
+        {
+          "text": "how can i add funds"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "aeae8201-b886-4d1f-80f3-a874dbf21a47",
+      "data": [
+        {
+          "text": "add money"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2c3db5d6-fe98-42de-a0b6-242476c900d1",
+      "data": [
+        {
+          "text": "add funds"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "84dbeae0-9d31-4149-9549-6e7ff2a8d415",
+      "data": [
+        {
+          "text": "topup"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "58812b96-dc1a-4356-923b-74c0574bd3fa",
+  "name": "Topup",
+  "auto": true,
+  "contexts": [
+    "session",
+    "wallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "title": "Add funds",
+          "subtitle": "You can add funds with Bitcoin.",
+          "buttons": [
+            {
+              "text": "Don\u0027t have any.",
+              "postback": "/topup?senderid\u003d#session.senderid\u0026source\u003d#session.source"
+            },
+            {
+              "text": "I own Bitcoin.",
+              "postback": "TOPUP_BITCOIN"
+            },
+            {
+              "text": "WTF is \"Bitcoin\" ?",
+              "postback": "HELP_BITCOIN"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "TOPUP"
+    }
+  ]
+}

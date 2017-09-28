@@ -1,0 +1,102 @@
+{
+  "userSays": [
+    {
+      "id": "22f3f03e-d38d-4dd2-8f6a-22c28e349fc8",
+      "data": [
+        {
+          "text": "i want to withdraw funds"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "84e8f062-2a28-4a64-bc58-f0871b745a93",
+      "data": [
+        {
+          "text": "withdraw funds to "
+        },
+        {
+          "text": "adresse",
+          "alias": "address",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9d529b11-31ab-4ec3-8f47-feaf9b2a2465",
+      "data": [
+        {
+          "text": "withdraw to "
+        },
+        {
+          "text": "adresse",
+          "alias": "address",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8d4ada1b-0be4-4ef6-b80a-3d72eff0710e",
+      "data": [
+        {
+          "text": "transfer funds to "
+        },
+        {
+          "text": "adresse",
+          "alias": "address",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b10461a9-5d1b-41ea-aba4-d6fc79e32de6",
+  "name": "Withdraw",
+  "auto": true,
+  "contexts": [
+    "session",
+    "wallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "withdrawal",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "address",
+          "value": "$address",
+          "prompts": [
+            "Auf welche Bitcoin-Adresse willst du dein Guthaben überweisen ? Du kannst mir auch ein Foto des QR-Codes schicken (oder abbrechen)"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WITHDRAW"
+    }
+  ]
+}

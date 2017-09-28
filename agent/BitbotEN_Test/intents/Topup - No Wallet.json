@@ -1,0 +1,80 @@
+{
+  "userSays": [
+    {
+      "id": "7408e8fc-24ac-4cd6-9422-6fa1dbf2afa1",
+      "data": [
+        {
+          "text": "what is my "
+        },
+        {
+          "text": "bitcoin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " address"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "032195bc-bd52-40ac-b309-4b0790991dde",
+      "data": [
+        {
+          "text": "topup"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7854dad1-ea20-4fb7-bcc0-fc0f3c2143f1",
+      "data": [
+        {
+          "text": "add funds"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "74886ceb-03c4-4b2f-9ee6-4eeb141a2365",
+  "name": "Topup - No Wallet",
+  "auto": true,
+  "contexts": [
+    "session",
+    "nowallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "wallet_yesno",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "You haven\u0027t set your personal PIN yet. Can we do it now ? It just takes some seconds!",
+            "For your security you have to set your personal PIN first. Would you mind doing it now ? It just takes some seconds ..."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "TOPUP"
+    }
+  ]
+}

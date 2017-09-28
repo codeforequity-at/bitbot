@@ -1,0 +1,67 @@
+{
+  "userSays": [
+    {
+      "id": "dc161965-d8bd-4352-86c3-edf858618356",
+      "data": [
+        {
+          "text": "bitte noch einen witz"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "90325901-8761-4ce5-8ed5-60911bb7f83b",
+      "data": [
+        {
+          "text": "noch einen bitte"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "086dbf75-c7d3-4b92-b6a8-257fff8fbc4b",
+      "data": [
+        {
+          "text": "noch einen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "057c3984-dcb7-452a-9350-b8aaab3de9f8",
+  "name": "Witze - noch einen",
+  "auto": true,
+  "contexts": [
+    "session",
+    "joke"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich bin keine Witzemaschine. Aber gut, einen hab ich noch."
+        },
+        {
+          "type": 0,
+          "speech": [
+            "Was essen Autos am liebsten? Parkplätzchen",
+            "Wer wohnt im Dschungel und schummelt beim Spielen? Mogli",
+            "Wie heißt ein Spanier ohne Auto? Carlos"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,69 @@
+{
+  "userSays": [
+    {
+      "id": "c186ef19-6655-45dc-be6f-fa3eaa1e1d4c",
+      "data": [
+        {
+          "text": "one more please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "08ea893b-62fc-4023-8d86-73d7c82cb660",
+      "data": [
+        {
+          "text": "one more"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cb6ea38b-f728-45a1-a035-3fab55e62b8d",
+      "data": [
+        {
+          "text": "tell me one more joke"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f0b4fff7-c9bf-462c-ad9f-ceb4bbce4a42",
+      "data": [
+        {
+          "text": "one more joke please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "814f51c8-7e72-4748-89ef-1896b0e28007",
+  "name": "Joke 3",
+  "auto": true,
+  "contexts": [
+    "session",
+    "joketwo"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Hey, I\u0027m not a joke bot ... please stay on the topic!"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,120 @@
+{
+  "userSays": [
+    {
+      "id": "60374c55-02d9-4c6c-9825-f4f4d413c85f",
+      "data": [
+        {
+          "text": "wie schauten die sicherheitsvorkehrungen aus"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f1a913b7-809e-4762-a448-3653e5ea6609",
+      "data": [
+        {
+          "text": "ist mein guthaben sicher"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8d09f6e9-25c4-4d24-9499-d6503380a6cf",
+      "data": [
+        {
+          "text": "wie sicher ist mein guthaben"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e75b24e4-da95-44e8-a239-47f550320d8b",
+      "data": [
+        {
+          "text": "kann mein guthaben gestohlen werden"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "149f20e7-a268-4ac1-a734-ca7b15a88c0a",
+      "data": [
+        {
+          "text": "kann mein geld gestohlen werden"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "cafd14e2-81f5-4844-b352-e51df8487fd7",
+      "data": [
+        {
+          "text": "welche sicherheitsvorkehrungen gibt es"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "30368f5b-6b1d-4f59-8241-d2411b955ccb",
+      "data": [
+        {
+          "text": "sicherheit"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ed74a980-0548-4027-a3de-9823da94b6f0",
+      "data": [
+        {
+          "text": "wie sicher ist mein geld ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1e2a4763-67fe-4a86-9a28-1ba92e1a5bd0",
+      "data": [
+        {
+          "text": "ist mein geld sicher ?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "dc1ea640-b691-4d7d-8144-47193cd218b8",
+  "name": "Hilfe - Sicherheit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Einfach gesagt, dein Guthaben ist so sicher wie dein PIN es ist. Dein Konto wird mit deiner PIN als Zugangscode verschlüsselt und erst danach zu mir übermittelt. Deine PIN bleibt nur bei dir."
+        },
+        {
+          "type": 0,
+          "speech": "Wenn dein PIN ausreichend sicher ist (also zb nicht \"1111\" oder der Vorname der Mutter ...) ist dein Guthaben also auch sicher - nicht einmal ich kann darüber verfügen ohne dein Einverständnis."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

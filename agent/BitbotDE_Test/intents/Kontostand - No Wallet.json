@@ -1,0 +1,52 @@
+{
+  "userSays": [
+    {
+      "id": "3deffa80-a61f-497d-a568-233eea7276a0",
+      "data": [
+        {
+          "text": "guthaben"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    }
+  ],
+  "id": "065833b0-9477-4da9-94a5-811f3b1e6010",
+  "name": "Kontostand - No Wallet",
+  "auto": true,
+  "contexts": [
+    "session",
+    "nowallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "wallet_yesno",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Leider hast du deine persönliche PIN noch nicht festgelegt. Willst du das jetzt machen ? Es dauert nur ein paar Sekunden!",
+            "Zu deiner Sicherheit musst du erst deine persönliche PIN wählen. Machen wir das jetzt ? Dauert nur eine Sekunde ..."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "BALANCE"
+    }
+  ]
+}

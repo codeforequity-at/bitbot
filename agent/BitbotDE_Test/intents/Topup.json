@@ -1,0 +1,119 @@
+{
+  "userSays": [
+    {
+      "id": "e43f3c2e-8015-4b88-86be-c4f2577664f7",
+      "data": [
+        {
+          "text": "guthaben aufladen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "fe4ecd4b-7bbf-4e07-8eec-62c8af255e01",
+      "data": [
+        {
+          "text": "Wie kann ich guthaben aufladen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "2427258a-ec9f-413d-a8dd-0f0bf9b2b4ee",
+      "data": [
+        {
+          "text": "ich möchte mein guthaben aufladen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "dd6b571d-8b9a-4371-8ab9-bb1590c73d63",
+      "data": [
+        {
+          "text": "aufladen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "32e3a0b6-0902-4d6b-b553-d79565fc4053",
+      "data": [
+        {
+          "text": "wie kann ich mein konto aufladen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "84dbeae0-9d31-4149-9549-6e7ff2a8d415",
+      "data": [
+        {
+          "text": "topup"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1890cfd8-e302-405c-a160-095fbce74734",
+      "data": [
+        {
+          "text": "wie kann ich mein guthaben aufladen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "58812b96-dc1a-4356-923b-74c0574bd3fa",
+  "name": "Topup",
+  "auto": true,
+  "contexts": [
+    "session",
+    "wallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "title": "Guthaben aufladen",
+          "subtitle": "Dein Guthaben kann mit Bitcoin aufgeladen werden.",
+          "buttons": [
+            {
+              "text": "Ich habe keine",
+              "postback": "/topup?senderid\u003d#session.senderid\u0026source\u003d#session.source"
+            },
+            {
+              "text": "Ich besitze welche",
+              "postback": "TOPUP_BITCOIN"
+            },
+            {
+              "text": "Was ist \"Bitcoin\" ?",
+              "postback": "HELP_BITCOIN"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "TOPUP"
+    }
+  ]
+}

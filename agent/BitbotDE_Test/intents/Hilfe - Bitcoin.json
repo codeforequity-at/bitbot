@@ -1,0 +1,74 @@
+{
+  "userSays": [
+    {
+      "id": "e2e52d57-02dc-46ec-9875-261c38f92ce0",
+      "data": [
+        {
+          "text": "was ist bitcoin"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "35f56e60-94a4-49db-a018-d905e3094b4a",
+      "data": [
+        {
+          "text": "wie funktionieren bitcoin"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fd9e451e-88da-43de-907b-3a8c83763edc",
+      "data": [
+        {
+          "text": "bitcoin"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5d59e047-3b0d-41ba-9aa8-91e2e449cc9b",
+      "data": [
+        {
+          "text": "was sind bitcoin"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d30685c8-4139-4dda-99ca-ce330af33f76",
+  "name": "Hilfe - Bitcoin",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Zu Bitcoin findet man im Internet viieeeele Informationen - zu viel für mich. Am besten du schaust mal hier rein: https://www.google.at/#q\u003dwas+ist+bitcoin"
+        },
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "HELP_BITCOIN"
+    }
+  ]
+}

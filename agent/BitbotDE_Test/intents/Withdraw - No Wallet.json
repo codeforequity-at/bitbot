@@ -1,0 +1,41 @@
+{
+  "userSays": [],
+  "id": "d93551cd-d540-4ec8-bf38-b034b4e4149b",
+  "name": "Withdraw - No Wallet",
+  "auto": true,
+  "contexts": [
+    "session",
+    "nowallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "wallet_yesno",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Leider hast du deine persönliche PIN noch nicht festgelegt. Willst du das jetzt machen ? Es dauert nur ein paar Sekunden!",
+            "Zu deiner Sicherheit musst du erst deine persönliche PIN wählen. Machen wir das jetzt ? Dauert nur eine Sekunde ..."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WITHDRAW"
+    }
+  ]
+}

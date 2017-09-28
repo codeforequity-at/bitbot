@@ -1,0 +1,69 @@
+{
+  "userSays": [
+    {
+      "id": "d35abb74-444f-4a3e-aab5-c2b9e47e86b9",
+      "data": [
+        {
+          "text": "who has programmed you"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "f4fd8817-ea4c-4843-880a-938a89de464e",
+      "data": [
+        {
+          "text": "who is your programmer"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "18ec1b79-7f9f-455d-bb7d-8ec2699987e7",
+      "data": [
+        {
+          "text": "who is your mother"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1274a3c8-fd26-4890-b82f-a94f00c08405",
+      "data": [
+        {
+          "text": "who is your father"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "4b34485e-77ef-43d7-bade-638b72061313",
+  "name": "Hilfe - Programmierer",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "The nice guy who programmed me is called Florian. You really should get to know him.",
+            "My father is called Florian. I don\u0027t know my mother, sorry."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,46 @@
+{
+  "userSays": [
+    {
+      "id": "3d9cce55-5f1c-4290-b9e4-4df333f53d9e",
+      "data": [
+        {
+          "text": "wie kann ich geld abheben"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "128cd8a9-40e3-4881-80fa-4132df358598",
+      "data": [
+        {
+          "text": "wie funktioniert das geld abheben"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "93fd3793-5e4c-420c-b0f0-452262c4759f",
+  "name": "Hilfe - Withdraw",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Du kannst dein Guthaben ganz einfach auf eine beliebige Bitcoin-Adresse (\"Konto\") überweisen. Dafür musst du mir das nur sagen (zum Beispiel \"Guthaben abheben\") und mir die Bitcoin-Adresse mitteilen - entweder einfach reinkopieren, oder ein Bild mit einem QR-Code hochladen. Danach musst du natürlich noch mit deinem PIN bestätigen."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

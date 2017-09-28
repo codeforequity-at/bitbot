@@ -1,0 +1,96 @@
+{
+  "userSays": [
+    {
+      "id": "3cbab5f4-7ecd-430f-a721-c289a2aa591a",
+      "data": [
+        {
+          "text": "One more please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d9f0d190-89b4-4ec9-93f9-62f2aa114123",
+      "data": [
+        {
+          "text": "one more please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "982dd2db-eaa5-46de-88a9-bd5dddfa0b90",
+      "data": [
+        {
+          "text": "tell me one more joke"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b32f9c28-5d70-49a9-9f93-173c60624a2f",
+      "data": [
+        {
+          "text": "one more joke please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e828e563-b215-45b4-9f2b-afe261463404",
+      "data": [
+        {
+          "text": "one more"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "30e1a879-6239-4778-ba7d-8e41c36de141",
+  "name": "Joke 2",
+  "auto": true,
+  "contexts": [
+    "session",
+    "jokeone"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "joketwo",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "OK, one more.",
+            "OK, final one ..."
+          ]
+        },
+        {
+          "type": 0,
+          "speech": [
+            "A ham sandwich walks into a bar and orders a beer. Bartender says, ‘Sorry we don’t serve food here.’",
+            "I used to have a job at a calendar factory but I got the sack because I took a couple of days off.",
+            "What’s Forrest Gump’s password? 1forrest1"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,40 @@
+{
+  "userSays": [],
+  "id": "dc002d3a-b08c-4b7b-9c4e-ea16fe36837d",
+  "name": "Event - Account Created",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "title": "PIN set",
+          "subtitle": "Please don\u0027t forget your PIN, otherwise your credits are lost!",
+          "buttons": [
+            {
+              "text": "Topup Credits",
+              "postback": "TOPUP"
+            },
+            {
+              "text": "Backup",
+              "postback": "BACKUP"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WALLET_CREATED"
+    }
+  ]
+}

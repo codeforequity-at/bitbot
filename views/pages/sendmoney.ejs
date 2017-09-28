@@ -1,0 +1,51 @@
+﻿<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+    <title><%= i18n.Send_PageTitle %> <%= config.receiver.facebook_profile.first_name %> <%= config.receiver.facebook_profile.last_name %></title>
+    <link rel="stylesheet" type="text/css" href="/dist/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/dist/font-awesome.min.css">
+    <script>
+      var config = <%- JSON.stringify(config) %>;
+      var i18n = <%- JSON.stringify(i18n) %>;
+    </script>
+    <style>
+      h1, p, div { text-align: center; }
+      body       { background: #fffffe; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <br/>
+      <div class="well" id="page1">
+        <form class="form-horizontal">
+          <div class="form-group">
+            <label class="control-label col-xs-4 col-sm-2" for="pin"><%= i18n.Send_LabelPIN %></label>
+            <div class="col-xs-8 col-sm-10">
+              <input type="password" class="form-control" id="pin" placeholder="<%= i18n.Send_PlaceholderPIN %>">
+            </div>
+          </div>
+          <div class="form-group"> 
+            <div class="col-sm-offset-2 col-sm-10">
+              <div class="btn-group btn-group-justified">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default" id="btnCancel"><%= i18n.Send_ButtonCancel %></button>
+                </div>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-primary" id="btnSubmit"><%= i18n.Send_ButtonContinue %></button>
+                </div>
+              </div>          
+            </div>
+          </div>
+        </form> 
+      </div>
+      <div class="well" id="page2" style="display: none;">
+        <p>
+          <h3 id="status_container"><i class="fa fa-check" id="check" style="display: none;"></i><i class="fa fa-times" id="times" style="display: none;"></i><i class="fa fa-spinner fa-spin" id="spinner" style="display: none;"></i> <span id="status"></span></h3>
+        </p>
+      </div>
+    </div>
+      
+    <script src="dist/sendmoney-bundle.min.js"></script>
+  </body>
+</html>

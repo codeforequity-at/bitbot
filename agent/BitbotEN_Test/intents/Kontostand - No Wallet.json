@@ -1,0 +1,62 @@
+{
+  "userSays": [
+    {
+      "id": "e115382c-994a-40c9-8b6f-eaf86501eace",
+      "data": [
+        {
+          "text": "show balance"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "060050fa-09b5-4c3a-9936-bb94a3ef14d8",
+      "data": [
+        {
+          "text": "balance"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "065833b0-9477-4da9-94a5-811f3b1e6010",
+  "name": "Kontostand - No Wallet",
+  "auto": true,
+  "contexts": [
+    "session",
+    "nowallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "wallet_yesno",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "You haven\u0027t set your personal PIN yet. Can we do it now ? It just takes some seconds!",
+            "For your security you have to set your personal PIN first. Would you mind doing it now ? It just takes some seconds ..."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "BALANCE"
+    }
+  ]
+}

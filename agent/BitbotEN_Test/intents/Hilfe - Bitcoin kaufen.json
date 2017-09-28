@@ -1,0 +1,112 @@
+{
+  "userSays": [
+    {
+      "id": "65bc439f-561f-41e3-9e25-4f102d937f68",
+      "data": [
+        {
+          "text": "please tell me how to purchase "
+        },
+        {
+          "text": "bitcoin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "8efc6d34-e424-4b91-82d2-0b5b35c3647c",
+      "data": [
+        {
+          "text": "where do i get "
+        },
+        {
+          "text": "bitcoin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "901fa8bf-4ef7-4fed-8dce-564e3d8ea19d",
+      "data": [
+        {
+          "text": "i want to buy some "
+        },
+        {
+          "text": "bitcoin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "773c47b5-7fff-461f-8042-16513939ab91",
+      "data": [
+        {
+          "text": "where can i buy "
+        },
+        {
+          "text": "bitcoin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "20fef3ec-3efb-4d60-9fc5-e803b05f5878",
+  "name": "Hilfe - Bitcoin kaufen",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "You can get Bitcoin on several marketplaces and exchangers in the internet, private and professional dealers. Here are some options for you:"
+        },
+        {
+          "type": 1,
+          "title": "Localbitcoins.com",
+          "subtitle": "Largest marketplace in the world",
+          "buttons": [
+            {
+              "text": "Open Website",
+              "postback": "https://localbitcoins.com/?ch\u003d9ev2"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "title": "Bitpanda",
+          "subtitle": "Get Bitcoins with Visa or Mastercard",
+          "buttons": [
+            {
+              "text": "Open Website",
+              "postback": "https://www.bitpanda.com/?ref\u003d6452743266890814971"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "BUY_BITCOIN"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "userSays": [
+    {
+      "id": "79ff366c-e5aa-48e8-a86c-fc159bcfab51",
+      "data": [
+        {
+          "text": "hi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8d172599-95ca-40dc-b671-a0b9999d1472",
+      "data": [
+        {
+          "text": "test"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "20eeadfa-fe93-43f1-8353-e8265cf99001",
+      "data": [
+        {
+          "text": "beginnen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "13a79b2f-b34a-483c-8e71-919a4c0e2ac9",
+      "data": [
+        {
+          "text": "begin"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "74c787a6-23bc-47a9-8052-5822b76bee32",
+      "data": [
+        {
+          "text": "loslegen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9e4c80a9-aa16-4653-8606-b2924bdc7b85",
+      "data": [
+        {
+          "text": "los gehts"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e279489b-f2d7-408d-8ffb-ef9c3474aa62",
+      "data": [
+        {
+          "text": "start"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "621fe713-e6fb-4060-bdbd-5f7ce5669160",
+      "data": [
+        {
+          "text": "hallo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "15591670-0707-4485-984c-c70041061a0e",
+      "data": [
+        {
+          "text": "halli"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "85f05948-2570-4c9b-b65c-5ba22464cdad",
+      "data": [
+        {
+          "text": "servus"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "09674e51-41f3-47f7-abfa-1fda164f20b2",
+      "data": [
+        {
+          "text": "hello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "87eb635b-18fa-430b-8258-315bef03b609",
+  "name": "Hello - Wallet",
+  "auto": true,
+  "contexts": [
+    "session",
+    "wallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Hallo!",
+            "Servus!",
+            "Grüß dich!"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "Was kann ich für dich tun ? Beispielsweise Guthaben abfragen, Guthaben aufladen, Geld senden, Geld abheben, Backup machen ?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

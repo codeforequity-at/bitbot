@@ -1,0 +1,147 @@
+{
+  "userSays": [
+    {
+      "id": "2ed00f8c-d6b5-4000-a700-96624c952f48",
+      "data": [
+        {
+          "text": "test"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "59565edc-c3f5-41d6-b9c5-501bf26c2002",
+      "data": [
+        {
+          "text": "what\u0027s up here"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7ebf2962-9bc0-4671-8174-6f2fe01be3ad",
+      "data": [
+        {
+          "text": "how to begin"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f32c1cae-db4e-4647-869c-d3d1b7ce77ef",
+      "data": [
+        {
+          "text": "how to start"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c09ad34a-5dd4-4f33-8a55-8900e52d81c3",
+      "data": [
+        {
+          "text": "begin"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8ab432c3-497a-4063-b906-6faac0165cd6",
+      "data": [
+        {
+          "text": "start"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8c811fb7-f11f-4bd3-8f6e-d00c8ce9f4ae",
+      "data": [
+        {
+          "text": "Getting Started"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "814fc000-7c87-401f-b8f5-385d2ca1d4d4",
+      "data": [
+        {
+          "text": "howdy"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f2369f58-e3c4-4848-a334-be922550ea21",
+      "data": [
+        {
+          "text": "hi"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bb698b2c-de6d-4267-b7fe-eeb574e5d3c5",
+      "data": [
+        {
+          "text": "greetings"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "09674e51-41f3-47f7-abfa-1fda164f20b2",
+      "data": [
+        {
+          "text": "hello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "87eb635b-18fa-430b-8258-315bef03b609",
+  "name": "Hello - Wallet",
+  "auto": true,
+  "contexts": [
+    "session",
+    "wallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Hello!",
+            "Hi!",
+            "Good morning! (I think so ...)"
+          ]
+        },
+        {
+          "type": 0,
+          "speech": "How can I help you ? I can show your balance, topup your balance, send credits, withdraw your credits, make a backup ?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

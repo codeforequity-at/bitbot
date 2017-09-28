@@ -1,0 +1,32 @@
+{
+  "userSays": [],
+  "id": "f804f398-0407-41f6-b019-7f79d7babdc5",
+  "name": "Fallback - Session Wallet",
+  "auto": false,
+  "contexts": [
+    "session",
+    "wallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Sorry I\u0027m just a bot and still learning your language."
+        },
+        {
+          "type": 0,
+          "speech": "How can I help you ? I can show your balance, topup your balance, send credits, withdraw your credits, make a backup ?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

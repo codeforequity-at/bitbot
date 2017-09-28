@@ -1,0 +1,77 @@
+{
+  "userSays": [
+    {
+      "id": "e0832dca-b5f6-4fce-b14e-8cb4313cb61e",
+      "data": [
+        {
+          "text": "do you speak "
+        },
+        {
+          "text": "english",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "976c856d-04e9-4777-9a32-9036e5b3ec5e",
+      "data": [
+        {
+          "text": "english",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8078277f-7a9c-43b5-8851-34561e8c55be",
+      "data": [
+        {
+          "text": "in "
+        },
+        {
+          "text": "english",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "60065ee7-1286-4139-80f5-94d5ad22d9e9",
+  "name": "English",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "switchlanguage",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "name": "lang",
+          "value": "en"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

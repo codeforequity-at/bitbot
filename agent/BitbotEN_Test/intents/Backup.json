@@ -1,0 +1,128 @@
+{
+  "userSays": [
+    {
+      "id": "79a10a0f-bdc5-4b17-b194-6d8005689b2e",
+      "data": [
+        {
+          "text": "how to decrypt my private key"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "14605e13-28c0-4d2b-b4dd-003e471c4022",
+      "data": [
+        {
+          "text": "what is my private key"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c78fa2ab-af8d-4180-8584-1fc8a2d777a0",
+      "data": [
+        {
+          "text": "private key"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "66098a99-8745-48c5-8d3f-2006ee074a01",
+      "data": [
+        {
+          "text": "please show my private key"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b47e834b-4011-4e5d-a032-4db13ee18d36",
+      "data": [
+        {
+          "text": "please make a backup"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "53369e43-2af1-40c1-9d40-50f0c6b4c736",
+      "data": [
+        {
+          "text": "how to make a backup"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8b3bacaa-f72b-4f6c-a8d2-b2886cb716ed",
+      "data": [
+        {
+          "text": "i want to make a backup"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a2cc3947-220b-428f-89f9-f205383d55eb",
+      "data": [
+        {
+          "text": "make backup"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3d81dc5d-2f61-4329-97dc-c26e3763a50a",
+      "data": [
+        {
+          "text": "Backup"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "55d38620-35c2-4aad-9865-ec5bd1c191b8",
+  "name": "Backup",
+  "auto": true,
+  "contexts": [
+    "session",
+    "wallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "backup",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Here you go: below you can find your private key, please store at a safe place. It has been ecnrypted with our personal PIN, by means of the \"TripleSec\"-library. You may decrypt it at https://keybase.io/triplesec/ and import it into your Bitcoin wallet."
+        },
+        {
+          "type": 0,
+          "speech": "#wallet.privatekey"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "BACKUP"
+    }
+  ]
+}

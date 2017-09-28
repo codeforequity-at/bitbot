@@ -1,0 +1,236 @@
+{
+  "userSays": [
+    {
+      "id": "f2639948-bd46-46ea-9939-c34a9563697c",
+      "data": [
+        {
+          "text": "send credits"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5869927f-7739-434c-a406-5380a6bdde41",
+      "data": [
+        {
+          "text": "Send "
+        },
+        {
+          "text": "0.5 euro",
+          "alias": "unitcurrency",
+          "meta": "@sys.unit-currency",
+          "userDefined": true
+        },
+        {
+          "text": "  to "
+        },
+        {
+          "text": "florian treml",
+          "alias": "friend",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "546d47cc-681f-407e-948b-1b71b9263ca2",
+      "data": [
+        {
+          "text": "Send",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "0.5 eiro",
+          "alias": "unitcurrency",
+          "meta": "@sys.unit-currency",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "53ae4db4-e892-4e32-a534-4bfc62d42807",
+      "data": [
+        {
+          "text": "send"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "c06ad37a-9be1-45ef-bc12-9437fe2d835f",
+      "data": [
+        {
+          "text": "send money"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5e691aaf-f06a-4aa2-9d0f-9a05cf5dbe38",
+      "data": [
+        {
+          "text": "transfer"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3df01bd8-6b8e-44df-9333-16ca51aef6c0",
+      "data": [
+        {
+          "text": "transfer money"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "37909b3a-baf0-4c2f-ad9c-44dff5115c17",
+      "data": [
+        {
+          "text": "12000 satoshi",
+          "alias": "unitcurrency",
+          "meta": "@sys.unit-currency",
+          "userDefined": true
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "martha maier",
+          "alias": "friend",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c1d07964-cce2-4cdc-ac8b-d9d4b8c3af29",
+      "data": [
+        {
+          "text": "send "
+        },
+        {
+          "text": "0,5 bitcoin",
+          "alias": "unitcurrency",
+          "meta": "@sys.unit-currency",
+          "userDefined": true
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "mike",
+          "alias": "friend",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9bc61397-dce3-41ec-bded-e22c3d17a6a1",
+      "data": [
+        {
+          "text": "0.1 bitcoin",
+          "alias": "unitcurrency",
+          "meta": "@sys.unit-currency",
+          "userDefined": false
+        },
+        {
+          "text": " to "
+        },
+        {
+          "text": "karl",
+          "alias": "friend",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "69c2d07e-5212-4978-9490-7a3d2b2aa31d",
+      "data": [
+        {
+          "text": "send "
+        },
+        {
+          "text": "5 euro",
+          "alias": "unitcurrency",
+          "meta": "@sys.unit-currency",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b927d2a8-4720-486b-ade6-22696c001d65",
+  "name": "Send",
+  "auto": true,
+  "contexts": [
+    "session",
+    "wallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "sendmoney",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "friend",
+          "value": "$friend",
+          "prompts": [
+            "Please tell me the full name of the receiver as registered on Facebook. (or cancel)"
+          ],
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@sys.unit-currency",
+          "name": "unitcurrency",
+          "value": "$unitcurrency",
+          "prompts": [
+            "How much do you want to send ?"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "SEND"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "userSays": [
+    {
+      "id": "4b77bc1e-4692-41da-90e6-3789cb82d8cf",
+      "data": [
+        {
+          "text": "wie kann ich guthaben aufladen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1686886f-f612-418e-8b69-d82e924eb2f6",
+      "data": [
+        {
+          "text": "guthaben"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "fabd5fde-c115-459f-bc60-c10648613225",
+      "data": [
+        {
+          "text": "guthaben aufladen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a855db03-fc60-428a-add3-86c83b4975ff",
+      "data": [
+        {
+          "text": "wie kann ich mein guthaben aufladen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "864c1ba0-e92e-4843-b159-0ae0921cc8d4",
+      "data": [
+        {
+          "text": "aufladen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "74886ceb-03c4-4b2f-9ee6-4eeb141a2365",
+  "name": "Topup - No Wallet",
+  "auto": true,
+  "contexts": [
+    "session",
+    "nowallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "wallet_yesno",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Zu deiner Sicherheit musst du erst deine persönliche PIN wählen. Machen wir das jetzt ? Dauert nur eine Sekunde ...",
+            "Leider hast du deine persönliche PIN noch nicht festgelegt. Willst du das jetzt machen ? Es dauert nur ein paar Sekunden!"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "TOPUP"
+    }
+  ]
+}

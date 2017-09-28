@@ -1,0 +1,93 @@
+{
+  "userSays": [
+    {
+      "id": "912475b3-a634-45ba-b717-9c5afa679b0f",
+      "data": [
+        {
+          "text": "erzähl mir einen witz"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "5981eb8f-f132-4ab5-bfad-009e6fcb98b6",
+      "data": [
+        {
+          "text": "ein",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " witz bitte"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9ab143b9-f16d-4916-b6c1-351c454da207",
+      "data": [
+        {
+          "text": "witz"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "33f5e079-9df6-46ac-8a08-27e475301c91",
+      "data": [
+        {
+          "text": "erzähl einen witz"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7b4b92e3-e5a2-4384-aaaf-641424127772",
+      "data": [
+        {
+          "text": "einen witz"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "1706f26d-381e-431d-8bab-8c53690b6671",
+  "name": "Witze",
+  "auto": true,
+  "contexts": [
+    "session"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "joke",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Hab bei den Weightwatchers angerufen. Hat keine abgenommen.",
+            "Was passiert wenn man Cola und Bier gleichzeitig trinkt? Man colabiert.",
+            "Wie nennt man ein helles Mammut? Helmut"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

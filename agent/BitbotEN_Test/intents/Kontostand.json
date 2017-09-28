@@ -1,0 +1,142 @@
+{
+  "userSays": [
+    {
+      "id": "e4f6a145-a3f2-4171-8ba2-de74411a35da",
+      "data": [
+        {
+          "text": "Show balance"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a5c2860a-af1c-4d2c-a38d-c8dd6c4e5443",
+      "data": [
+        {
+          "text": "balance"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "b3e0a809-5663-411a-b8fc-2cf6679bdcee",
+      "data": [
+        {
+          "text": "how much "
+        },
+        {
+          "text": "bitcoin",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " do i have"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "c616d5f8-702f-4666-9610-d87c4d28ef2d",
+      "data": [
+        {
+          "text": "show balance"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "88e1383c-8801-40d0-a86b-e76de0ce8e3a",
+      "data": [
+        {
+          "text": "show me the balance"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9f8ba87a-e8a4-45ad-a451-00f74c872dda",
+      "data": [
+        {
+          "text": "how much money is on my account"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "907ff77f-8258-48fb-bc02-c8942dcccf58",
+      "data": [
+        {
+          "text": "how much money is on my acount"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a896f096-10b5-4bd9-84c4-aedf4190bb6c",
+      "data": [
+        {
+          "text": "how much money"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6830614d-7e1c-4e51-a042-f5e629dfc23d",
+      "data": [
+        {
+          "text": "what is my balance"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1c53b3bf-cd05-4230-b519-40ae6b8f160c",
+      "data": [
+        {
+          "text": "check balance"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "ea3255eb-b792-4bb9-81f9-bcb36330fedd",
+  "name": "Kontostand",
+  "auto": true,
+  "contexts": [
+    "session",
+    "wallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "checkbalance",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Something doesn\u0027t work right now ... will be fixed."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "BALANCE"
+    }
+  ]
+}

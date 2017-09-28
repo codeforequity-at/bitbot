@@ -1,0 +1,87 @@
+{
+  "userSays": [
+    {
+      "id": "7ba1f281-2548-49ea-8540-032c4b2e78a6",
+      "data": [
+        {
+          "text": "wie ist meine bitcoin adresse"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "cbf289b0-c576-49f7-b379-d72749500d9d",
+      "data": [
+        {
+          "text": "wie ist die adresse"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "2b65aaba-8e2f-43e0-af59-66bab0c3c4c0",
+      "data": [
+        {
+          "text": "an welche adresse muss ich überweisen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9a13de58-57e2-4aa0-910b-e6a2ec9cb8b0",
+      "data": [
+        {
+          "text": "wie lautet meine bitcoin adresse"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6b5c692c-0244-4b36-b3d7-86087cde203c",
+      "data": [
+        {
+          "text": "wie lautet meine adresse"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "49dcf82b-8abb-4a09-9e28-56f3c15001ec",
+  "name": "Topup - Bitcoin",
+  "auto": true,
+  "contexts": [
+    "session",
+    "wallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Zum Aufladen bitte Bitcoin an diese Adresse überweisen: #wallet.address (oder den folgenden QR-Code scannen)"
+        },
+        {
+          "type": 3,
+          "imageUrl": "http://www.btcfrog.com/qr/bitcoinPNG.php?address\u003d#wallet.address"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "TOPUP_BITCOIN"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "userSays": [],
+  "id": "415e254d-b40b-446f-8864-48872649a86a",
+  "name": "Fallback - All Empty",
+  "auto": false,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Meine Sitzung ist abgelaufen, wird aber sofort wieder aufgebaut, keine Sorge."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

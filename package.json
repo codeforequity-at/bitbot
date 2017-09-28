@@ -1,0 +1,52 @@
+{
+  "name": "bitbot",
+  "version": "0.0.1",
+  "description": "bitbot",
+  "engines": {
+    "node": "5.9.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "node_modules/.bin/gulp browserify",
+    "watchify-createwallet": "watchify client/createwallet.js -o public/dist/createwallet-bundle.min.js -v",
+    "build-createwallet": "browserify client/createwallet.js -o public/dist/createwallet-bundle.min.js",
+    "watchify-sendmoney": "watchify client/sendmoney.js -o public/dist/sendmoney-bundle.min.js -v",
+    "build-sendmoney": "browserify client/sendmoney.js -o public/dist/sendmoney-bundle.min.js",
+    "watchify-withdrawal": "watchify client/withdrawal.js -o public/dist/withdrawal-bundle.min.js -v",
+    "build-withdrawal": "browserify client/withdrawal.js -o public/dist/withdrawal-bundle.min.js"
+  },
+  "dependencies": {
+    "apiai": "3.0.3",
+    "async": "2.0.0",
+    "bigi": "1.4.2",
+    "bitcoinjs-lib": "2.3.0",
+    "body-parser": "1.15.2",
+    "bootstrap": "3.3.7",
+    "browserify": "^14.0.0",
+    "bs58": "4.0.0",
+    "ecurve": "1.0.5",
+    "ejs": "2.4.1",
+    "eslint": "^3.15.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.1",
+    "eslint-plugin-standard": "^2.0.1",
+    "express": "4.13.3",
+    "express-interceptor": "1.2.0",
+    "fbgraph": "^1.4.1",
+    "font-awesome": "4.7.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-trimlines": "^1.0.1",
+    "html-entities": "1.2.0",
+    "jquery": "3.1.1",
+    "json-bigint": "0.2.0",
+    "mongoose": "4.8.1",
+    "node-uuid": "1.4.7",
+    "numeral": "2.0.4",
+    "request": "2.73.0",
+    "triplesec": "3.0.25",
+    "watchify": "^3.9.0"
+  },
+  "license": "ISC"
+}

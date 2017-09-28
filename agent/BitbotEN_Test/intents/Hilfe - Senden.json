@@ -1,0 +1,86 @@
+{
+  "userSays": [
+    {
+      "id": "fa0a90f1-a3d4-4b54-93ff-aa2a646dfa08",
+      "data": [
+        {
+          "text": "how does transfering money work"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3cc9bced-7cb3-4494-9c01-60ab62fe4258",
+      "data": [
+        {
+          "text": "how does sending money work"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a214f4ce-d68a-434b-a2cf-4a0c76d0ba1e",
+      "data": [
+        {
+          "text": "who can i transfer money"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6c0e4032-62a5-4fdd-a760-1837a8e4d944",
+      "data": [
+        {
+          "text": "how to transfer money"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d67bd929-f21e-484a-8a51-21a6e1d7e833",
+      "data": [
+        {
+          "text": "how to send money"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "12df473d-b8f3-4104-9df5-658f25034a33",
+      "data": [
+        {
+          "text": "how can i send money"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "18d12e3b-8f94-4cae-9c2b-b9eba5031618",
+  "name": "Hilfe - Senden",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "You can send money to everyone who has an account at Itipu. You just have to say \"send 2 USD to John Doe\"."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

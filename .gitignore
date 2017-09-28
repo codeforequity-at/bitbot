@@ -1,0 +1,15 @@
+# Node build artifacts
+node_modules
+npm-debug.log
+
+# Local development
+*.env
+*.dev
+.DS_Store
+
+# Docker
+Dockerfile
+docker-compose.yml
+public/dist/createwallet-bundle.min.js
+public/dist/sendmoney-bundle.min.js
+public/dist/withdrawal-bundle.min.js

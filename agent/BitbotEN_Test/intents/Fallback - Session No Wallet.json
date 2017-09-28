@@ -1,0 +1,38 @@
+{
+  "userSays": [],
+  "id": "9803a74e-ddd8-4725-9b3c-80e1c1580a6a",
+  "name": "Fallback - Session No Wallet",
+  "auto": false,
+  "contexts": [
+    "session",
+    "nowallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [
+        {
+          "name": "wallet_yesno",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Before I\u0027m of any use for you, you haven\u0027t set your personal PIN yet. Can we do it now ? It just takes some seconds!",
+            "Sorry, but for your security you have to set your personal PIN first. Would you mind doing it now ? It just takes some seconds ..."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

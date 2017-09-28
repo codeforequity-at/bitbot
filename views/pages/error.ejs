@@ -1,0 +1,21 @@
+﻿<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
+    <title><%= i18n.Web_ErrorTitle %></title>
+    <link rel="stylesheet" type="text/css" href="/dist/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/dist/font-awesome.min.css">
+    <style>
+      h1, p, div { text-align: center; }
+      body       { background: #fffffe; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <br/>
+      <div class="alert alert-danger">
+        <i class="fa fa-exclamation-circle" aria-hidden="true"></i> <%= message %>
+      </div>
+    </div>
+  </body>
+</html>

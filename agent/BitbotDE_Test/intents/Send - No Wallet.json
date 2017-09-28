@@ -1,0 +1,41 @@
+{
+  "userSays": [],
+  "id": "cdb399fc-93f0-42e7-8b9c-43c5893c18f8",
+  "name": "Send - No Wallet",
+  "auto": true,
+  "contexts": [
+    "session",
+    "nowallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "wallet_yesno",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Leider hast du deine persönliche PIN noch nicht festgelegt. Willst du das jetzt machen ? Es dauert nur ein paar Sekunden!",
+            "Zu deiner Sicherheit musst du erst deine persönliche PIN wählen. Machen wir das jetzt ? Dauert nur eine Sekunde ..."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "SEND"
+    }
+  ]
+}

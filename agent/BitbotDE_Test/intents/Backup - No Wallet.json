@@ -1,0 +1,41 @@
+{
+  "userSays": [],
+  "id": "8d2758e9-9b14-4ad8-899d-8644b2c80162",
+  "name": "Backup - No Wallet",
+  "auto": true,
+  "contexts": [
+    "session",
+    "nowallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "wallet_yesno",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Leider hast du deine persönliche PIN noch nicht festgelegt. Willst du das jetzt machen ? Es dauert nur ein paar Sekunden!",
+            "Zu deiner Sicherheit musst du erst deine persönliche PIN wählen. Machen wir das jetzt ? Dauert nur eine Sekunde ..."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "BACKUP"
+    }
+  ]
+}

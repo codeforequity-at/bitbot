@@ -1,0 +1,455 @@
+{
+  "userSays": [
+    {
+      "id": "bc517c5e-4198-40b3-aabb-b5e25081fbbf",
+      "data": [
+        {
+          "text": "sende "
+        },
+        {
+          "text": "1 euro",
+          "alias": "time",
+          "meta": "@sys.time",
+          "userDefined": false
+        },
+        {
+          "text": " an "
+        },
+        {
+          "text": "conny",
+          "alias": "friend",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "7d381f8c-dbd6-41e6-ad58-73562125872a",
+      "data": [
+        {
+          "text": "sende "
+        },
+        {
+          "text": "1",
+          "alias": "time",
+          "meta": "@sys.time",
+          "userDefined": false
+        },
+        {
+          "text": " euro"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6a521bdb-b383-4c6a-983c-10c3a3a50dd2",
+      "data": [
+        {
+          "text": "senden an "
+        },
+        {
+          "text": "florian",
+          "alias": "friend",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "54cdf66c-a355-4aee-a446-a5776e623b12",
+      "data": [
+        {
+          "text": "sende an "
+        },
+        {
+          "text": "florian",
+          "alias": "friend",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9468f203-2ef5-4bf6-bb54-1071a6fb9925",
+      "data": [
+        {
+          "text": "Sende "
+        },
+        {
+          "text": "3 euro",
+          "alias": "unitcurrency",
+          "meta": "@sys.unit-currency",
+          "userDefined": false
+        },
+        {
+          "text": " an "
+        },
+        {
+          "text": "florian treml",
+          "alias": "friend",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5869927f-7739-434c-a406-5380a6bdde41",
+      "data": [
+        {
+          "text": "Sende "
+        },
+        {
+          "text": "0.5 euro",
+          "alias": "unitcurrency",
+          "meta": "@sys.unit-currency",
+          "userDefined": true
+        },
+        {
+          "text": " an "
+        },
+        {
+          "text": "florian treml",
+          "alias": "friend",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "546d47cc-681f-407e-948b-1b71b9263ca2",
+      "data": [
+        {
+          "text": "Sende",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "text": "0.5 eiro",
+          "alias": "unitcurrency",
+          "meta": "@sys.unit-currency",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "16ea8058-46b1-49c7-8988-c3b563affadf",
+      "data": [
+        {
+          "text": "Geld "
+        },
+        {
+          "text": "senden",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "22502149-7ca6-4658-af4e-99982bd5e52f",
+      "data": [
+        {
+          "text": "send "
+        },
+        {
+          "text": "0,2 euro",
+          "alias": "unitcurrency",
+          "meta": "@sys.unit-currency",
+          "userDefined": true
+        },
+        {
+          "text": " an "
+        },
+        {
+          "text": "ctreml",
+          "alias": "friend",
+          "meta": "@sys.any",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "49073713-b275-4a19-99f5-16411a58cb3b",
+      "data": [
+        {
+          "text": "send 0,5 "
+        },
+        {
+          "text": "euro",
+          "alias": "unitcurrency",
+          "meta": "@sys.unit-currency",
+          "userDefined": true
+        },
+        {
+          "text": " an "
+        },
+        {
+          "text": "florian treml",
+          "alias": "friend",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e896f59d-ee81-451a-b47b-0bfce44c1166",
+      "data": [
+        {
+          "text": "sende "
+        },
+        {
+          "text": "0,1 euro",
+          "alias": "unitcurrency",
+          "meta": "@sys.unit-currency",
+          "userDefined": false
+        },
+        {
+          "text": " an "
+        },
+        {
+          "text": "florian treml",
+          "alias": "friend",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "36711604-0030-4175-890a-12a34ae491b2",
+      "data": [
+        {
+          "text": "sende "
+        },
+        {
+          "text": "1 euro",
+          "alias": "unitcurrency",
+          "meta": "@sys.unit-currency",
+          "userDefined": false
+        },
+        {
+          "text": " an "
+        },
+        {
+          "text": "florian treml",
+          "alias": "friend",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c5a954fc-3ad0-42a7-b45d-2955f3eca66b",
+      "data": [
+        {
+          "text": "senden",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "57a686d7-c88a-410f-94c5-6b85c0b71a34",
+      "data": [
+        {
+          "text": "überweisen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "ce7b02c4-4ef8-40a4-a17a-d609b1dbfefd",
+      "data": [
+        {
+          "text": "geld überweisen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "37909b3a-baf0-4c2f-ad9c-44dff5115c17",
+      "data": [
+        {
+          "text": "12000 satoshi",
+          "alias": "unitcurrency",
+          "meta": "@sys.unit-currency",
+          "userDefined": true
+        },
+        {
+          "text": " an "
+        },
+        {
+          "text": "martha maier",
+          "alias": "friend",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c1d07964-cce2-4cdc-ac8b-d9d4b8c3af29",
+      "data": [
+        {
+          "text": "0,5 bitcoin",
+          "alias": "unitcurrency",
+          "meta": "@sys.unit-currency",
+          "userDefined": true
+        },
+        {
+          "text": " an "
+        },
+        {
+          "text": "mike",
+          "alias": "friend",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " senden"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9bc61397-dce3-41ec-bded-e22c3d17a6a1",
+      "data": [
+        {
+          "text": "0.1 bitcoin",
+          "alias": "unitcurrency",
+          "meta": "@sys.unit-currency",
+          "userDefined": false
+        },
+        {
+          "text": " an "
+        },
+        {
+          "text": "karl",
+          "alias": "friend",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "69c2d07e-5212-4978-9490-7a3d2b2aa31d",
+      "data": [
+        {
+          "text": "5 euro",
+          "alias": "unitcurrency",
+          "meta": "@sys.unit-currency",
+          "userDefined": true
+        },
+        {
+          "text": " senden"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "06e89a18-a4ad-40d5-8aca-b23e5e379b20",
+      "data": [
+        {
+          "text": "geld "
+        },
+        {
+          "text": "senden",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "b927d2a8-4720-486b-ade6-22696c001d65",
+  "name": "Send",
+  "auto": true,
+  "contexts": [
+    "session",
+    "wallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "sendmoney",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "friend",
+          "value": "$friend",
+          "prompts": [
+            "An wen möchtest du Geld senden ? (oder abbrechen)"
+          ],
+          "isList": false
+        },
+        {
+          "required": true,
+          "dataType": "@sys.unit-currency",
+          "name": "unitcurrency",
+          "value": "$unitcurrency",
+          "prompts": [
+            "Wieviel möchstet du senden ? Bitte gib Betrag + Währung an (zb 0,5 Euro) (oder abbrechen)"
+          ]
+        },
+        {
+          "dataType": "@sys.time",
+          "name": "time",
+          "value": "$time",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "SEND"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "userSays": [
+    {
+      "id": "3b326b47-e92b-4c01-80cd-84c8a1057463",
+      "data": [
+        {
+          "text": "no chance"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "47074414-de41-4184-8c6b-0e622c323a29",
+      "data": [
+        {
+          "text": "nope"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "42a7f034-71d6-44c4-a455-5edc12bdfebe",
+      "data": [
+        {
+          "text": "no"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "45b0dd06-112f-419f-b47d-8e51aa202c5b",
+  "name": "Wallet YesNo - No",
+  "auto": true,
+  "contexts": [
+    "session",
+    "nowallet",
+    "wallet_yesno"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "wallet_yesno",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "You cannot continue without your personal PIN, sorry. It really takes just a couple of seconds - do it now ?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

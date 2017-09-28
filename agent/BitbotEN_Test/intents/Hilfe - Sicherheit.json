@@ -1,0 +1,116 @@
+{
+  "userSays": [
+    {
+      "id": "252d1212-3a5d-42ce-86f1-edb22ccd8e41",
+      "data": [
+        {
+          "text": "how safe are my credits"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3645c014-8838-497f-a42f-ee3cb79b5060",
+      "data": [
+        {
+          "text": "how safe is my money"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5d8a06d3-2faa-46d3-88ca-5cb78845001d",
+      "data": [
+        {
+          "text": "is my money safe"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "aa629772-41d5-429c-a1f0-111ebf4a9d65",
+      "data": [
+        {
+          "text": "can my money be robbed"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "eeba3c25-7e0c-41a9-b54b-1b20e9a4d243",
+      "data": [
+        {
+          "text": "can it be robbed"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0438e4be-6e94-4875-a321-5cf9780e536d",
+      "data": [
+        {
+          "text": "are my credits safe"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e653a875-44a9-407f-a66f-e22f7f7bfb20",
+      "data": [
+        {
+          "text": "security measures"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "9160165f-caab-4994-8962-edb7e6bf32e7",
+      "data": [
+        {
+          "text": "security"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "31241f79-4c3d-47ff-af7d-198ba216ebe2",
+      "data": [
+        {
+          "text": "what are the security measures"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "dc1ea640-b691-4d7d-8144-47193cd218b8",
+  "name": "Hilfe - Sicherheit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Your wallet is as safe as your PIN. Your wallet is encrypted with your PIN, even for me it is not possible to get access to it without your help."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,32 @@
+{
+  "userSays": [],
+  "id": "5fa9c849-eb60-403f-b036-319c9887e2ad",
+  "name": "Event - Welcome - Wallet",
+  "auto": true,
+  "contexts": [
+    "session",
+    "wallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "How can I help you ? I can show your balance, topup your balance, send credits, withdraw your credits, make a backup ?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME_WALLET"
+    }
+  ]
+}

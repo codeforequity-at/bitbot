@@ -1,0 +1,144 @@
+{
+  "userSays": [
+    {
+      "id": "0c56705f-9913-4c0a-8cff-ea6117fd1cd9",
+      "data": [
+        {
+          "text": "guthaben abfragen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "7ede745c-bf28-481b-9348-800064e74a09",
+      "data": [
+        {
+          "text": "Guthaben"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "89128d9b-1ccf-4271-804a-1bbb3c758331",
+      "data": [
+        {
+          "text": "Wie hoch ist mein guthaben"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "3063d8dd-0d29-404f-8d60-425f0cd70cf4",
+      "data": [
+        {
+          "text": "Guthaben abfragen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "30ae3c76-c1fc-477d-8599-fe2b574a7022",
+      "data": [
+        {
+          "text": "guthaben"
+        }
+      ],
+      "isTemplate": false,
+      "count": 4
+    },
+    {
+      "id": "3fa0486a-f534-4387-bac7-51a7c6734027",
+      "data": [
+        {
+          "text": "wieviel guthaben"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "85554ebc-ae97-46b3-a49b-47c06eb682d8",
+      "data": [
+        {
+          "text": "wieviel guthaben habe ich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2cafff73-6d74-4811-a3d2-03c8f8348153",
+      "data": [
+        {
+          "text": "zeig mir bitte mein guthaben"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "70197dcc-2e99-4275-8921-3fded41a6c5d",
+      "data": [
+        {
+          "text": "wie ist mein guthaben"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "543f0922-48c2-455c-b255-e07ba99a86a3",
+      "data": [
+        {
+          "text": "wie hoch ist mein guthaben"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1c53b3bf-cd05-4230-b519-40ae6b8f160c",
+      "data": [
+        {
+          "text": "check balance"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "ea3255eb-b792-4bb9-81f9-bcb36330fedd",
+  "name": "Kontostand",
+  "auto": true,
+  "contexts": [
+    "session",
+    "wallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "checkbalance",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Es scheint momentan etwas nicht zu funktionieren."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "BALANCE"
+    }
+  ]
+}

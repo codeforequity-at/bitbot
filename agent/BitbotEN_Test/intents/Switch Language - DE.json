@@ -1,0 +1,137 @@
+{
+  "userSays": [
+    {
+      "id": "42794eb4-ef97-4b06-8aa7-c0769a14813e",
+      "data": [
+        {
+          "text": "in "
+        },
+        {
+          "text": "german",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " please"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "95e0efdc-5962-466e-ab46-068790fdb80c",
+      "data": [
+        {
+          "text": "wie die Sprache zu ändern?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "d74bbf79-4110-4f68-9256-d28a78b4a080",
+      "data": [
+        {
+          "text": "geht auch deutsch"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dd622b6c-98ba-4c03-8296-8aa14561eaf3",
+      "data": [
+        {
+          "text": "bitte in deutscher sprache"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b2ed931d-f1b0-4282-adde-7225be351ba6",
+      "data": [
+        {
+          "text": "bitte auf deutsch wechseln"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ee1daaac-6a6b-4ec8-a03c-0cac1121d1cc",
+      "data": [
+        {
+          "text": "bitte auf deutsch"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4b0a9091-259e-4a83-b930-d4bc450353a8",
+      "data": [
+        {
+          "text": "switch language to "
+        },
+        {
+          "text": "german",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5f327a1a-a93c-4da9-8b70-c3340e68e88a",
+      "data": [
+        {
+          "text": "deutsch"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "16ee5a43-582d-4132-a6e3-5fb42e23c092",
+      "data": [
+        {
+          "text": "german",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "065e665a-9a65-449c-a7fa-04667a9c4a48",
+  "name": "Switch Language - DE",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "switchlanguage",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "name": "lang",
+          "value": "de"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

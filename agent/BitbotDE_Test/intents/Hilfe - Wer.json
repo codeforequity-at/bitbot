@@ -1,0 +1,106 @@
+{
+  "userSays": [
+    {
+      "id": "e253d14c-ff36-4b0d-addf-ba07b7c05c0d",
+      "data": [
+        {
+          "text": "informationen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7b567528-d5b5-4ebd-b943-1bb58b2ad488",
+      "data": [
+        {
+          "text": "info"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dda534ed-ba82-48ff-8add-37d8eabaee23",
+      "data": [
+        {
+          "text": "wer bist du"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "7f4cc50a-c54f-4a1c-b948-ca6e247b410e",
+      "data": [
+        {
+          "text": "wann bist du geboren"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a7f527e4-5e2c-498b-a047-abdf9740e725",
+      "data": [
+        {
+          "text": "wie alt bist du"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ee53f6f6-71db-49ee-9f6f-3d931f763d7f",
+      "data": [
+        {
+          "text": "was heißt itipu"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "ce0c9338-084f-4ff4-9b34-d3c46372f760",
+      "data": [
+        {
+          "text": "wie heißt du"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0cd1adff-3e47-4365-a6c5-162b04cdf7b1",
+      "data": [
+        {
+          "text": "wer spricht da"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "85fa00c1-fcbc-45c0-9ced-2158a48ca947",
+  "name": "Hilfe - Wer",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich bin ein Computerprogramm. Ich heiße \"Itipu\", was eigentlich nur \"i tip you\" (also etwa: \"Ich gebe dir Trinkgeld\") zusammengeschrieben ist. Mein Programmierer gibt sein bestes, damit ich alles verstehe was du sagst oder schreibst."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,140 @@
+{
+  "userSays": [
+    {
+      "id": "97479382-5c52-4b9a-b3c9-db137fb995f5",
+      "data": [
+        {
+          "text": "Info"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "2dc682b9-3b13-485f-9e6b-65bf7e7355a4",
+      "data": [
+        {
+          "text": "Befehle"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "48b5c5eb-3581-4a81-9c83-9f6f475de987",
+      "data": [
+        {
+          "text": "commands"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "efc51245-52ba-4a8a-9ffa-7cd2c9528a2c",
+      "data": [
+        {
+          "text": "kommandos"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c1cfdea7-a001-46f7-bea5-3f8d24990c12",
+      "data": [
+        {
+          "text": "befehle"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "a137fa92-f19e-47a2-aed1-3ce08265331a",
+      "data": [
+        {
+          "text": "was muss ich tun"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0a3655d6-e8e8-4ad8-9c09-d0c8a56be570",
+      "data": [
+        {
+          "text": "was soll das"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f56d2f2c-da0f-42ff-883c-2a6f4fa4d70c",
+      "data": [
+        {
+          "text": "wie funktionier das"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "7bb32b06-9457-46e5-ab55-04d3bb405429",
+      "data": [
+        {
+          "text": "was ist das"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0aba4610-7bd8-4894-867b-3e1d0bd49fa7",
+      "data": [
+        {
+          "text": "help"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "e5805440-9b3b-47ab-805a-2ae61d275fdb",
+      "data": [
+        {
+          "text": "hilfe"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "d7939272-f0ea-44ba-bd87-8166930b81af",
+  "name": "Hilfe",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Wobei kann ich dir helfen ? Mein Programmierer gibt sein bestes, dass ich alles verstehe was du sagst, also stell am besten einfach eine Frage! Beispiele: Was sind Bitcoin ? Wie kann ich mein Konto aufladen ? Wie sicher ist mein Guthaben ?"
+        },
+        {
+          "type": 0,
+          "speech": "Und übrigens: du kannst jede Aktion abbrechen, indem du einfach \"abbrechen\" eingibst!"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

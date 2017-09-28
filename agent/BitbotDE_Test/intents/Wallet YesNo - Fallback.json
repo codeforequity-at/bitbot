@@ -1,0 +1,35 @@
+{
+  "userSays": [],
+  "id": "e09ad259-f23c-4c68-b193-3e44d7545a0c",
+  "name": "Wallet YesNo - Fallback",
+  "auto": false,
+  "contexts": [
+    "session",
+    "nowallet",
+    "wallet_yesno"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "wallet_yesno",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Ich habe deine Antwort nicht verstanden. Am besten einfach mit \"ja\" oder \"nein\" antworten :-)"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

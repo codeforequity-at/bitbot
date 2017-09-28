@@ -1,0 +1,81 @@
+{
+  "userSays": [
+    {
+      "id": "5765ace7-50c2-41f2-bb64-7f4a7413c7cd",
+      "data": [
+        {
+          "text": "super"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b215fb50-f484-4b9a-a1f6-030ce4f778a2",
+      "data": [
+        {
+          "text": "geil"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "557b32be-396c-4a11-9136-5e27845d2cef",
+      "data": [
+        {
+          "text": "super, danke"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "12beae9d-026c-4e5e-9ba7-91d4c2675987",
+      "data": [
+        {
+          "text": "vielen dank"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "026210f8-fb1f-40ec-bcf3-388288dfeedc",
+      "data": [
+        {
+          "text": "danke"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "df414536-9715-4020-b265-13f0c7fdfa62",
+  "name": "Danke",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Nichts zu danken.",
+            "Hab ich gerne gemacht!",
+            "Für dich immer!",
+            "Ich mag dich auch"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

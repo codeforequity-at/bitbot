@@ -1,0 +1,40 @@
+{
+  "userSays": [],
+  "id": "dc002d3a-b08c-4b7b-9c4e-ea16fe36837d",
+  "name": "Event - Account Created",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "title": "PIN festgelegt",
+          "subtitle": "Bitte vergiss sie nicht, sonst ist dein Guthaben unwiederbringlich verloren!",
+          "buttons": [
+            {
+              "text": "Guthaben aufladen",
+              "postback": "TOPUP"
+            },
+            {
+              "text": "Sicherungskopie",
+              "postback": "BACKUP"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WALLET_CREATED"
+    }
+  ]
+}

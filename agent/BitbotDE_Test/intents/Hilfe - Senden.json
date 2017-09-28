@@ -1,0 +1,121 @@
+{
+  "userSays": [
+    {
+      "id": "81406db3-b1ae-476c-aecd-09711db708cc",
+      "data": [
+        {
+          "text": "wie kann ich geld senden"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6bae9a9c-82b9-4053-ae1c-a4f069f2649c",
+      "data": [
+        {
+          "text": "wie kann ich geld überweisen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 2
+    },
+    {
+      "id": "1bdc1172-f236-463f-8134-6fd4e2f0ea81",
+      "data": [
+        {
+          "text": "geld überweisen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "71cefbd9-eab9-42c4-a509-21e438d47ebd",
+      "data": [
+        {
+          "text": "geld abheben"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "72bc5c13-29a2-4c83-b813-48e5a8a54454",
+      "data": [
+        {
+          "text": "wem kann ich geld überweisen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0821d69e-f459-4424-83d2-67ec2bc51d11",
+      "data": [
+        {
+          "text": "wie funktioniert das geld "
+        },
+        {
+          "text": "senden",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "637e2e67-3c2f-43ac-a397-34c728cedbbc",
+      "data": [
+        {
+          "text": "wem kann ich geld "
+        },
+        {
+          "text": "senden",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "c6ce7981-d633-494b-a9d0-013ce4df309f",
+      "data": [
+        {
+          "text": "wie kann ich geld "
+        },
+        {
+          "text": "senden",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "18d12e3b-8f94-4cae-9c2b-b9eba5031618",
+  "name": "Hilfe - Senden",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Du kannst jedem deiner Freunde, die hier auch ein Konto haben, ganz einfach Geld überweisen, in dem du mir das sagst. Zum Beispiel: \"Sende 2 Euro an Max Mustermann\" oder \"1,5 USD an John Doe\"."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

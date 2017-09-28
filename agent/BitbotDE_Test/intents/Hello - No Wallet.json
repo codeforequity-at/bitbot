@@ -1,0 +1,136 @@
+{
+  "userSays": [
+    {
+      "id": "715abd4d-2329-4ea3-b79d-7df639803de9",
+      "data": [
+        {
+          "text": "starten"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "53c200c9-3dac-449c-949d-5dda60461e40",
+      "data": [
+        {
+          "text": "start"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dddee226-c2cd-4cad-ac22-19a096624a50",
+      "data": [
+        {
+          "text": "test"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6c4078c4-3f99-4461-9abc-869ed8332f0f",
+      "data": [
+        {
+          "text": "Hallo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "ae18639c-8c15-4e5b-bea9-9bceef7301c0",
+      "data": [
+        {
+          "text": "grüss dich"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8a64aa19-ee5e-4e30-808f-c3d41fdb8a7b",
+      "data": [
+        {
+          "text": "Los geht\u0027s"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "f65e8662-ae2d-478b-b00d-22629f66d752",
+      "data": [
+        {
+          "text": "Loslegen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "87e5cfe7-65b6-4efe-9649-92d60c0e251f",
+      "data": [
+        {
+          "text": "Getting Started"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8d75cadd-ac79-4559-b7ac-11eda830a395",
+      "data": [
+        {
+          "text": "Servus"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "83fe42bc-d6d7-4232-bb40-0d89516f7e62",
+      "data": [
+        {
+          "text": "Hello"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "341ef396-57ec-4b17-b9b1-7d71808bb381",
+  "name": "Hello - No Wallet",
+  "auto": true,
+  "contexts": [
+    "session",
+    "nowallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "wallet_yesno",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Hallo, bevor du beginnst, musst du deine persönliche PIN wählen. Ist das OK ? Geht ganz schnell."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

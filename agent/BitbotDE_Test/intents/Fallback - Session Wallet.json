@@ -1,0 +1,32 @@
+{
+  "userSays": [],
+  "id": "f804f398-0407-41f6-b019-7f79d7babdc5",
+  "name": "Fallback - Session Wallet",
+  "auto": false,
+  "contexts": [
+    "session",
+    "wallet"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Das habe ich leider nicht verstanden, ich lerne noch!"
+        },
+        {
+          "type": 0,
+          "speech": "Was kann ich für dich tun ? Beispielsweise Guthaben abfragen, Guthaben aufladen, Geld senden, Geld abheben, Backup machen ?"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": []
+}

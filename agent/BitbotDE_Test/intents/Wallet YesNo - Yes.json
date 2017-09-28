@@ -1,0 +1,117 @@
+{
+  "userSays": [
+    {
+      "id": "97d60763-f232-4601-9631-cf13609f0521",
+      "data": [
+        {
+          "text": "okay"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "6130ee07-484e-4ee8-9aec-0d12b11b3d46",
+      "data": [
+        {
+          "text": "jo"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "b02e2a6b-d491-4d17-8f9b-f700bfb5724e",
+      "data": [
+        {
+          "text": "ja gerne"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "4d5f15d1-c379-4ae1-8f89-f5f9471f219e",
+      "data": [
+        {
+          "text": "jup"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "34b3c12f-f97d-43a6-8bba-0747b3cb980a",
+      "data": [
+        {
+          "text": "ok"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "48f0ed78-c9cf-48d3-be56-d9299cabb9b2",
+      "data": [
+        {
+          "text": "ja bitte"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "5b69b914-25f3-42fa-b8e8-db0b47875396",
+      "data": [
+        {
+          "text": "yes"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "1ab27705-45a3-4e55-9a98-a58c5e4bce04",
+      "data": [
+        {
+          "text": "ja"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "44c9c57a-50a1-4fb9-ba11-704c9f52b87c",
+  "name": "Wallet YesNo - Yes",
+  "auto": true,
+  "contexts": [
+    "session",
+    "nowallet",
+    "wallet_yesno"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "createwallet",
+      "affectedContexts": [
+        {
+          "name": "wallet_yesno",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Es scheint momentan etwas nicht zu funktionieren."
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

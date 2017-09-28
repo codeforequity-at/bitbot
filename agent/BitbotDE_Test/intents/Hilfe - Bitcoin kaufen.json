@@ -1,0 +1,124 @@
+{
+  "userSays": [
+    {
+      "id": "53f3c7c3-187a-45b4-b7f1-0a39eda7b9f0",
+      "data": [
+        {
+          "text": "woher bekomme ich bitoin"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "dad079a3-fedc-4e59-a39d-9baf8f5da697",
+      "data": [
+        {
+          "text": "wo kann ich bitcoin kaufen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "0ade581e-693e-4830-b1fd-83290a68e49a",
+      "data": [
+        {
+          "text": "wie kann ich bitcoin kaufen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 1
+    },
+    {
+      "id": "f0d9cdcc-9c95-47f2-985d-6ce70bfe15b6",
+      "data": [
+        {
+          "text": "bitcoin kaufen"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "bdb921db-8abb-49bc-aefb-c629c907967f",
+      "data": [
+        {
+          "text": "wie komme ich an bitcoin"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "20fef3ec-3efb-4d60-9fc5-e803b05f5878",
+  "name": "Hilfe - Bitcoin kaufen",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Bitcoin kannst du auf Marktplätzen im Internet, bei professionellen Bitcoin-Händlern oder in Österreich auch in jeder Trafik oder am Bitcoin-Automaten kaufen. Hier sind einige Möglichkeiten:"
+        },
+        {
+          "type": 1,
+          "title": "Localbitcoins.com",
+          "subtitle": "Größter Bitcoin-Marktplatz im Internet",
+          "buttons": [
+            {
+              "text": "Webseite Öffnen",
+              "postback": "https://localbitcoins.com/?ch\u003d9ev2"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "title": "Am Geldautomat kaufen",
+          "subtitle": "Bitcoins am ATM kaufen - beispielsweise Wien, Mariahilfer Straße",
+          "buttons": [
+            {
+              "text": "Lageplan",
+              "postback": "https://coinfinity.co/bitcoin-kaufen/"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "title": "Bitpanda",
+          "subtitle": "Bitcoins mit Sofortüberweisung oder Kreditkarte kaufen",
+          "buttons": [
+            {
+              "text": "Webseite Öffnen",
+              "postback": "https://www.bitpanda.com/?ref\u003d6452743266890814971"
+            }
+          ]
+        },
+        {
+          "type": 1,
+          "title": "Bitcoinbon (Trafik)",
+          "subtitle": "Bitcoins in der Trafik kaufen (derzeit nur Österreich)",
+          "buttons": [
+            {
+              "text": "Mehr Infos",
+              "postback": "https://www.bitcoinbon.at"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "BUY_BITCOIN"
+    }
+  ]
+}

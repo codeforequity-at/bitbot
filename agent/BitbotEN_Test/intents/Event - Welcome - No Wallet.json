@@ -1,0 +1,35 @@
+{
+  "userSays": [],
+  "id": "b7c5c9c7-1a67-4033-a604-090f85cd8c24",
+  "name": "Event - Welcome - No Wallet",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "wallet_yesno",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Hello, first you have to choose your personal PIN - is this OK for you ? It just takes some seconds!"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}
