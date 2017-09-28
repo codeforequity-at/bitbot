@@ -12,7 +12,7 @@ I wrote some articles about this project, please find it here:
 
 ## Test Setup
 
-The chatbot is accessible (here)[https://www.facebook.com/ItipuBot/] 
+The chatbot is accessible [here](https://www.facebook.com/ItipuBot/) - Facebook account required, of course! 
 
 ## Tooling
 
@@ -25,4 +25,4 @@ There is not much tooling for now. It is deployed on Heroku.
 
 This project is still pretty basic. Looking for developers, testers, designers, blockchain experts, ... to take part!
 
-
+I'm willing to share every server access (Heroku, Facebook Page, API.ai, ....) to organize a fully distributed development/test/deployment pipeline for contributors.
