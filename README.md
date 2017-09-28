@@ -1,6 +1,8 @@
 # Bitbot
 Cryptocurrency Wallet within Facebook Messenger
 
+![Logo](https://scontent-vie1-1.xx.fbcdn.net/v/t1.0-9/16729522_1869202770031411_2274318279769371141_n.png?oh=424affcaece5366237395871ae5b86c4&oe=5A86BF5E)
+
 ## Articles
 
 I wrote some articles about this project, please find it here:
